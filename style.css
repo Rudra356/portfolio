@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Mova';
+    src:url('./fonts/Mova.otf') format('opentype'),url('./fonts/Mova.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Apply the font to elements */
+.nav-link {
+    font-family: 'Mova', sans-serif;
+    text-decoration: none;
+    font-size: 25px !important;
+    color:black !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
