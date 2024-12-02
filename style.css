@@ -6,6 +6,7 @@
   font-style: normal;
 }
 
+
 .navbar {
   background-color: #000;
   /* background-color: rgb(25,25,25); */
@@ -36,7 +37,7 @@
 main {
   position: absolute;
   top: 26px;
-  background-image: url("./images/1.jpg");
+  background-image: url("./images/2.webp");
   height: 650px;
   filter: opacity(0.9);
   filter: grayscale(0.95);
@@ -60,7 +61,7 @@ main {
 #hi {
   position: absolute;
   z-index: 100;
-  top: 30%;
+  top: 27%;
   right: 77.6%;
   font-size: 5rem;
   font-weight: 800;
@@ -73,7 +74,7 @@ main {
   position: absolute;
   z-index: 100;
   color: white;
-  top: 43%;
+  top: 40%;
   right: 71%;
   font-size: 6.5rem;
   font-weight: 800;
@@ -90,6 +91,30 @@ main {
   color: #fff;
 }
 
+#overview{
+position: relative;
+top:650px;
+height: 600px;
+padding: 0;
+margin: 0;
+background-color: #FFF;
+}
+
+.commonheading {
+  position: absolute;
+  top: -10%; /* Start position (hidden above the viewport) */
+  left: 8%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  opacity: 0; /* Initially hidden */
+  transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+}
+
+.commonheading.active {
+  top: 1%; /* Final position (visible in the viewport) */
+  opacity: 1; /* Fully visible */
+}
 
 
 
@@ -119,6 +144,16 @@ main {
   #role{
 
   }
+
+  #overview{
+  
+  }
+
+
+  .commonheading{
+  
+  }
+
 }
 
 
@@ -167,7 +202,7 @@ main {
 main {
   position: absolute;
   top: 26px;
-  background-image: url("./images/1.jpg");
+  background-image: url("./images/2.webp");
   height: 300px;
   filter: opacity(0.9);
   filter: grayscale(0.95);
@@ -185,5 +220,13 @@ main {
   color: #fff;
 }
 
+#overview{
+  
+}
+
+
+.commonheading{
+  
+}
 
 }
