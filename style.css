@@ -18,9 +18,9 @@
 .nav-link {
   font-family: "Mova", sans-serif;
   text-decoration: none;
-  font-size: 2.1rem !important;
+  font-size: 1.9rem !important;
   color: rgb(195, 195, 195) !important;
-  padding-top: 20px !important;
+  padding-top: 0px !important;
   padding-bottom: 0 !important;
   padding-right: 40px !important;
   transition: color 1s ease !important, transform 1s ease !important; /* Transition with !important */
@@ -37,7 +37,7 @@ main {
   position: absolute;
   top: 26px;
   background-image: url("./images/1.jpg");
-  height: 800px;
+  height: 650px;
   filter: opacity(0.9);
   filter: grayscale(0.95);
   filter: saturate(10%);
@@ -45,10 +45,10 @@ main {
 
 /* Default styles for larger screens */
 #img-holder {
-  height: 35rem;
-  width: 25rem;
+  height: 32rem;
+  width: 22rem;
   position: absolute;
-  top: 20%;
+  top: 12%;
   left: 72vw;
   filter: saturate(550%) opacity(1) grayscale(0);
   border-top-left-radius: 30%;
@@ -61,7 +61,7 @@ main {
   position: absolute;
   z-index: 100;
   top: 30%;
-  right: 80%;
+  right: 77.6%;
   font-size: 5rem;
   font-weight: 800;
   font-family: "Roboto", sans-serif;
@@ -74,13 +74,20 @@ main {
   z-index: 100;
   color: white;
   top: 43%;
-  right: 74.8%;
+  right: 71%;
   font-size: 6.5rem;
   font-weight: 800;
 }
 
 #role{
-
+  position: absolute;
+  z-index: 108;
+  top: 63%;
+  right: 50.85%;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 
@@ -132,14 +139,14 @@ main {
   }
 
   #hi {
-    top: 30%; /* adjust position */
+    top: 17%; /* adjust position */
     left: 10%; /* center horizontally */
     font-size: 2rem; /* smaller font size */
     transform: translateX(-50%); /* center horizontally */
   }
 
   #myname {
-    top: 63%; /* adjust position */
+    top: 47%; /* adjust position */
     font-size: 2.8rem; /* smaller font size */
     left: 12%; /* center horizontally */
     transform: translateX(-50%); /* center horizontally */
@@ -168,7 +175,14 @@ main {
 }
 
 #role{
-  
+  position: absolute;
+  z-index: 108;
+  top: 65%;
+  left: 4.85%;
+  font-size: .8rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 
