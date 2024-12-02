@@ -79,7 +79,9 @@ main {
   font-weight: 800;
 }
 
+#role{
 
+}
 
 
 
@@ -105,6 +107,10 @@ main {
     left: 50%; /* center horizontally */
     font-size: 3.5rem; /* smaller font size */
     transform: translateX(-50%); /* center horizontally */
+  }
+
+  #role{
+
   }
 }
 
@@ -160,4 +166,10 @@ main {
   filter: grayscale(0.95);
   filter: saturate(10%);
 }
+
+#role{
+  
+}
+
+
 }
