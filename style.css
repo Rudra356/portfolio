@@ -5,12 +5,25 @@
     font-style: normal;
 }
 
+.navbar{
+    background-color: rgb(25,25,25);
+}
+
 /* Apply the font to elements */
 .nav-link {
     font-family: 'Mova', sans-serif;
     text-decoration: none;
-    font-size: 25px !important;
-    color:black !important;
+    font-size: 2.1rem !important;
+    color:rgb(0,0,222) !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+    padding-right: 40px !important;
+}
+ 
+main{
+    position: absolute;
+    top:66px;
+    background-image: url("./images/1.jpg");
+    height: 800px;
+    filter:opacity(.9);
 }
