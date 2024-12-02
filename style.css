@@ -37,19 +37,83 @@ main{
     filter: saturate(10%);
 }
 
-
-section {
-    padding: 100px 20px;
+ /* Default styles for larger screens */
+#img-holder {
+    height: 35rem;
+    width: 25rem;
+    position: absolute;
+    top: 20%;
+    left: 72vw;
+    filter: saturate(550%) opacity(1) grayscale(0);
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 30%;
   }
-
-  #about {
-    background-color: #f5f5f5;
+  
+  #hi {
+    position: absolute;
+    z-index: 100;
+    top: 30%;
+    right: 80%;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    color: #fff7;
   }
-
-  #projects {
-    background-color: #e0e0e0;
+  
+  #myname {
+    font-family: 'Mova';
+    position: absolute;
+    z-index: 100;
+    color: white;
+    top: 43%;
+    right: 75%;
+    font-size: 5.5rem;
+    font-weight: 800;
   }
-
-  #contact {
-    background-color: #d0d0d0;
+  
+  /* Media query for screens smaller than 768px (smartphones) */
+  @media (max-width: 768px) {
+    #img-holder {
+      height: 20rem; /* smaller height */
+      width: 15rem; /* smaller width */
+      top: 10%; /* adjust top */
+      left: 50%; /* center horizontally */
+      transform: translateX(-50%); /* center horizontally */
+    }
+  
+    #hi {
+      top: 25%; /* adjust position */
+      right: 50%; /* center horizontally */
+      transform: translateX(50%); /* center horizontally */
+      font-size: 2.5rem; /* smaller font size */
+    }
+  
+    #myname {
+      top: 35%; /* adjust position */
+      right: 50%; /* center horizontally */
+      transform: translateX(50%); /* center horizontally */
+      font-size: 3.5rem; /* smaller font size */
+    }
   }
+  
+  /* Media query for very small screens (portrait phones) */
+  @media (max-width: 480px) {
+    #img-holder {
+      height: 15rem; /* even smaller height */
+      width: 12rem; /* even smaller width */
+      top: 5%; /* adjust top */
+    }
+  
+    #hi {
+      top: 20%; /* adjust position */
+      font-size: 2rem; /* smaller font size */
+    }
+  
+    #myname {
+      top: 30%; /* adjust position */
+      font-size: 2.8rem; /* smaller font size */
+    }
+  }
+  
